@@ -1,0 +1,263 @@
+body{
+    margin:0;
+}
+.header{
+    width: 100%;
+    background-color:white;
+    height: 62px;
+}
+.logo{
+    width: 26px;
+    position: absolute;
+    top: 17px;
+    left: 74px;
+}
+.search{
+    width: 22px;
+    position: absolute;
+    left: 88%;
+    top: 17px;
+}
+.pie{
+    width: 2%;
+    position: absolute;
+    left: 91%;
+    top: 12px;
+}
+@font-face {
+    font-family: header;
+    src: url(fonts/AdobeClean/AdobeClean-Regular.otf);
+}
+.logoname{
+    font-family: header;
+    position: absolute;
+    left: 108px;
+    top: 2px;
+    color: red;
+    font-weight: 600;
+}
+.sectionpic{
+    width:100%;
+}
+.symbol{
+    width: 64px;
+    position: absolute;
+    bottom: 472px;
+    left: 174px;
+}
+.m-text{
+    position: absolute;
+    bottom: 275px;
+    left: 174px;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: header;
+}
+.s-text{
+
+    position: absolute;
+    bottom: 213px;
+    left: 180px;
+    font-size: 21px;
+    line-height: 2;
+    font-weight: 500;
+    font-family: 'header';
+}
+.button1{
+    border-radius: 45px;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+    border-color: black;
+    position: absolute;
+    bottom: 162px;
+    left: 177px;
+    width: 10%;
+    height: 49px;
+}
+.button2{
+    font-weight: bold;
+    border-radius: 100px;
+    width: 160px;
+    height: 50px;
+    font-size: 21px;
+    background-color: #1473e6;
+    border-color: #1473e6;
+    border: 0px solid;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 532px;
+    left: 358px;
+}
+.button1:hover{
+    background-color: black;
+    color: #fff;
+    transition:.3s;
+}
+.button2:hover{
+    background-color:#0d66d0;
+    transition: .3s;
+}
+.s2-text{
+    font-size: 17px;
+    font-family: new;
+    font-weight: 500;
+    position: absolute;
+    bottom: 100px;
+    left: 172px;
+}
+.content-heading{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'header';
+    position: absolute;
+    left: 146px;
+    bottom: -129px;
+}
+.pic1{
+    height: 286px;
+    position: absolute;
+    left: 150px;
+    top: 120%;
+}
+    .subhead{
+        position: absolute;
+    top: 159%;
+    left: 145px;
+    font-size: 23px;
+    font-family: 'header';
+    font-weight: 600;
+}
+
+.content1{
+    position: absolute;
+    top: 167%;
+    left: 142px;
+    font-size: 19px;
+    font-family: 'header';
+
+}    
+.similar{
+    font-size: 17px;
+    font-family: 'header';
+
+}
+.common{
+    height: 286px;
+
+}
+.content2{
+    position: absolute;
+    top: 167%;
+    left: 591px;
+
+}
+.pic2{
+    position: absolute;
+    top: 120%;
+    left: 558px;
+}
+.subhead2{
+    position: absolute;
+    top: 158%;
+    left: 589px;
+    font-size: 23px;
+    font-family: 'header';
+    font-weight: 600;
+}
+.pic3{
+    position: absolute;
+    top: 120%;
+    left: 998px;
+}
+.content3{
+    position: absolute;
+    top: 167%;
+    left: 1002px;
+
+}
+.subhead3{
+    position: absolute;
+    top: 158%;
+
+    font-size: 23px;
+    font-family: 'header';
+    font-weight: 600;
+    left: 998px;
+
+}
+
+.line{
+    width: 100%;
+    background-color: #378ef0;
+    height: 10px;
+    position: absolute;
+    top: 192%;
+}
+.free{
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    top: 200%;
+    left: 600px;
+    font-family: 'header';
+
+}
+.get{
+    
+    position: absolute;
+    top: 211%;
+    left: 494px;
+    font-size: 21px;
+    font-family: 'header';
+    letter-spacing: .5px;
+}
+.button3{
+    font-size: 1.375rem;
+    width: 155px;
+    border-radius: 34px;
+    height: 48px;
+  
+    font-weight: 700;
+    cursor: pointer;
+    border-color: black;
+    font-family: 'header';
+    position: absolute;
+    top: 221%;
+    left: 578px;
+}
+.button4{
+    font-weight: bold;
+    border-radius: 100px;
+    width: 160px;
+    height: 50px;
+    font-size: 21px;
+    font-color: white;
+    background-color: #1473e6;
+    border-color: #1473e6;
+    border: 0px solid;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 221%;
+    left: 782px;
+
+}
+.button3:hover{
+    background-color: black;
+    color: #fff;
+    transition: .3s;
+}
+.button4:hover{
+    background-color:#0d66d0;
+    transition: .3s;
+    
+}.footer-text{
+    position: absolute;
+    top: 241%;
+    left: 870px;
+    font-size: 12px;
+    padding-bottom: 33px;
+}
